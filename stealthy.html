@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stealthy - MerpoBots</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID');
+</script>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <a class="navbar-brand ms-auto" href="index.html">MerpoBots</a>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            My Apps
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="stealthy.html">Stealthy</a></li>
+                            <li><a class="dropdown-item" href="flux-canvas.html">Flux Canvas</a></li>
+                            <li><a class="dropdown-item" href="game.html">Upcoming Game</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="3d-work.html">3D Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="social.html">Social</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5 pt-4">
+        <!-- App Header -->
+        <div class="row align-items-center py-5">
+            <div class="col-lg-8">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Stealthy</li>
+                    </ol>
+                </nav>
+                
+                <h1 class="display-4 fw-bold">Stealthy</h1>
+                <p class="lead">Discreet recording for concerts and performances without disturbing others</p>
+                
+                <div class="mt-4">
+                    <span class="badge bg-success me-2">Available Now</span>
+                    <span class="badge bg-info me-2">Android</span>
+                    <span class="badge bg-warning">Beta Testing</span>
+                </div>
+
+                <!-- Download Button -->
+                <div class="mt-4">
+                    <a href="https://play.google.com/store/apps/details?id=com.merpo.stealthy" 
+                       class="btn btn-primary btn-lg" target="_blank">
+                        📱 Download on Google Play
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <!-- App Icon -->
+                <div class="mx-auto" style="max-width: 200px;">
+                    <img src="images/icon.png" alt="Stealthy App" 
+                         class="img-fluid app-icon rounded-3">
+                </div>
+            </div>
+        </div>
+
+        <!-- Beta Status -->
+        <div class="alert alert-info mb-5">
+            <h5>🎉 Now Available for Beta Testing!</h5>
+            <p class="mb-0">Stealthy is live on Google Play Store. Download now and help us improve with your feedback!</p>
+        </div>
+
+        <!-- Original Vision -->
+        <div class="card border-primary mb-5">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">The Original Vision</h5>
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote">
+                    <p class="mb-0">"When filming at concerts, ballets and other theater performances that allow recording, the screen is always so bright and probably annoying to other attendees. I want an app that allows rear camera recording while blacking out the screen almost entirely except for a small record button and a small low resolution view of the video. The buttons should be small and a deep red that is hard to see unless you are near the screen."</p>
+                    <footer class="blockquote-footer mt-2">Project Vision Statement</footer>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- Problem & Solution -->
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <div class="card h-100 border-danger">
+                    <div class="card-header bg-danger text-white">
+                        <h5 class="mb-0">The Problem</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Traditional camera apps are disruptive in sensitive environments:</p>
+                        <ul>
+                            <li>Bright screens distract performers and audience</li>
+                            <li>Complex interfaces require attention</li>
+                            <li>Shutter sounds break immersion</li>
+                            <li>Large previews block the actual view</li>
+                        </ul>
+                        <p>You want to capture memories without being "that person" with the bright phone.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card h-100 border-success">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0">Our Solution</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Stealthy delivers true discretion:</p>
+                        <ul>
+                            <li><strong>Ultra-dim interface</strong> - Deep red theme with adjustable brightness</li>
+                            <li><strong>Minimal preview</strong> - Small, low-visibility video window</li>
+                            <li><strong>Complete silence</strong> - No shutter sounds or focus beeps</li>
+                            <li><strong>Gesture controls</strong> - Zoom and adjust without visible buttons</li>
+                            <li><strong>Professional quality</strong> - Full-resolution recording despite small preview</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Real Features -->
+<section class="mb-5">
+    <h2 class="text-center mb-4">Actual Features</h2>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="text-center">
+                <div class="feature-icon bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    🎥
+                </div>
+                <h5>Professional Camera2 API</h5>
+                <p>Advanced Android camera system with scalable preview window and full-resolution capture.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <div class="feature-icon bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    🔧
+                </div>
+                <h5>Adjustable Brightness</h5>
+                <p>Manual control from completely invisible (0.0x) to double brightness (2.0x) for ultimate discretion.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <div class="feature-icon bg-info text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    📐
+                </div>
+                <h5>Scalable Preview Window</h5>
+                <p>Adjust preview size from 10% to 200% - from discreet indicator to full visibility.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <div class="feature-icon bg-warning text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    🎮
+                </div>
+                <h5>4-Orientation Support</h5>
+                <p>Fully functional interface in portrait, landscape left/right, and portrait reverse.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <div class="feature-icon bg-danger text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    👆
+                </div>
+                <h5>Full-Screen Zoom Gesture</h5>
+                <p>Drag anywhere on empty screen areas to zoom smoothly from 1.0x to 10.0x magnification.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <div class="feature-icon bg-secondary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    📸
+                </div>
+                <h5>Photo + Video Capture</h5>
+                <p>Full-resolution photos and professional video recording with pause/resume functionality.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Future Plans -->
+        <section class="mb-5">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h3 class="card-title">Future Enhancements</h3>
+                    <p>While the app is fully functional now, future updates may include:</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Planned:</h6>
+                            <ul>
+                                <li>Audio quality enhancements</li>
+                                <li>Audience noise limiting</li>
+                                <li>Improved audio processing</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Considering:</h6>
+                            <ul>
+                                <li>In-app media gallery (future)</li>
+                                <li>Additional stealth modes</li>
+                                <li>Advanced audio features</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="mt-3"><small>Current version focuses on core discreet recording functionality.</small></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Perfect For -->
+        <section class="mb-5">
+            <h2 class="text-center mb-4">Perfect For</h2>
+            <div class="row g-4">
+                <div class="col-md-3 text-center">
+                    <div class="h4">🎵</div>
+                    <h6>Concerts</h6>
+                    <p class="small">Capture your favorite bands without distracting others</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="h4">💃</div>
+                    <h6>Ballet & Theater</h6>
+                    <p class="small">Record performances while respecting the artists</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="h4">🎭</div>
+                    <h6>Live Shows</h6>
+                    <p class="small">Discreet recording at any performance venue</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="h4">📹</div>
+                    <h6>Content Creators</h6>
+                    <p class="small">Professional discreet recording for sensitive situations</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="text-center py-5 bg-primary text-white rounded-3">
+            <h3>Ready for Discreet Recording?</h3>
+            <p class="mb-4">Download Stealthy now and capture memories without being disruptive</p>
+            <a href="https://play.google.com/store/apps/details?id=com.merpo.stealthy" 
+               class="btn btn-light btn-lg" target="_blank">
+                📱 Download on Google Play
+            </a>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>MerpoBots</h5>
+                    <p>Mobile apps and 3D design</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="about.html" class="text-light me-3">About</a>
+                    <a href="social.html" class="text-light me-3">Social Media</a>
+                    <a href="3d-work.html" class="text-light">3D Services</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
